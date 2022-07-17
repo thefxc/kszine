@@ -1,0 +1,41 @@
+{
+  "name": "kszine",
+  "version": "1.0.0",
+  "description": "KAnsas Zine Project",
+  "homepage": "https://github.com/thefxc/kszine#readme",
+  "bugs": "https://github.com/thefxc/kszine/issues",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "exist",
+    "exist-db",
+    "xml",
+    "xql",
+    "xquery"
+  ],
+  "author": {
+    "name": "thefxc",
+    "email": "francis.connor@wichita.edu"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/mocha/ --recursive --exit && mocha test/xqs/*.js",
+    "cypress": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thefxc/kszine",
+    "license": "MIT"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-xml": "^0.4.0",
+    "cypress": "^10.3.0",
+    "fs-extra": "^10.1.0",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4",
+    "xmldoc": "^1.2.0",
+    "yeoman-assert": "^3.1.1"
+  }
+}
